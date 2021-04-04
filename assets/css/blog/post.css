@@ -29,11 +29,11 @@
 
 .post-title {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .post-header.big-title .post-title {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 800;
     letter-spacing: -0.5px;
 }
@@ -50,7 +50,7 @@
     text-transform: uppercase;
 }
 
-.post-meta-item + .post-meta-item::before {
+.post-meta-item+.post-meta-item::before {
     content: "\02022";
     padding: 0 4px;
     font-family: serif;
@@ -60,7 +60,7 @@
     color: var(--primary-color);
 }
 
-.post-tag + .post-tag::before {
+.post-tag+.post-tag::before {
     content: ", ";
 }
 
@@ -161,7 +161,7 @@
     font-weight: 700;
 }
 
-.post-author-name-link + .post-author-name-link::before {
+.post-author-name-link+.post-author-name-link::before {
     content: ", ";
     color: var(--secondary-text-color);
 }
@@ -172,6 +172,6 @@
     }
 
     .post:not(.single-post) .post-title {
-        font-size: 20px !important;
+        font-size: 26px !important;
     }
 }

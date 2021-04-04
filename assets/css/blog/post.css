@@ -33,7 +33,7 @@
 }
 
 .post-header.big-title .post-title {
-    font-size: 32px;
+    font-size: clamp(1.5rem, 7vw, 2.4rem);
     font-weight: 800;
     letter-spacing: -0.5px;
 }
